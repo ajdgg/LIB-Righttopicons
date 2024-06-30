@@ -4,4 +4,4 @@
 bot.py
 cs.py
 /log
-.env.bot
+.env copy.bot
