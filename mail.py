@@ -6,6 +6,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 
+XJ_Log = XJ_Log()
+
 load_dotenv('.env.bot')
 
 

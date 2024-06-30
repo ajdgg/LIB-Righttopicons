@@ -6,7 +6,7 @@ from file_handle import xj_file_handle
 dayt = time.strftime('%Y-%m-%d', time.localtime())
 
 
-def x_log(value: str, logtype: str = 'info'):
+def x_log(value: str, logtype: str):
     logging.basicConfig(filename=Path(__file__).resolve().parent / f'log/{dayt}.log', encoding='utf-8', level=logging.DEBUG, format='%(asctime)s:%(levelname)s:%(message)s')
     if logtype == 'info':
         logging.info(value)
@@ -46,4 +46,4 @@ class XJ_Log:
 
 
 if __name__ == '__main__':
-    XJ_Log().w_log('test')
+    XJ_Log().w_log('test', 'error')

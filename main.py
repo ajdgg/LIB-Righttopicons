@@ -11,6 +11,7 @@ from httpx_request import AsyncHttpClient
 from file_handle import xj_file_handle
 
 
+XJ_Log = XJ_Log()
 CColor = CmdColor()
 client = AsyncHttpClient()
 handle = xj_file_handle()
@@ -66,7 +67,7 @@ def Return_to(Arry: List[str], permission: List[str]):
 
 
 def x_self_inspection():
-    required_vars = ['USERNAME', 'PASSWORD', 'wiki_url']
+    required_vars = ['WIKI_USERNAME', 'WIKI_PASSWORD', 'MEDIAWIKI_URL']
     for var in required_vars:
         if os.getenv(var) is None:
             CColor.ccolor("BUG", f"缺少环境变量: {var}", "red")
