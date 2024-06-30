@@ -9,6 +9,15 @@
 
 目前用于[Template:Right_topicons](https://youshou.wiki/wiki/Template:Right_topicons)
 
+```
+更改 main.py 中的
+
+pattern = r"{{Right topicons\|用户=([^}]*)}}"
+
+可以更换要匹配的模板
+```
+更改模板后如果权限名不同，要去```dara.json```修改
+
 ## 运行
 
 ```
