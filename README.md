@@ -7,6 +7,8 @@
 
 如果邮箱配置部分如果没有配置，则不会发邮件
 
+目前用于[Template:Right_topicons](https://youshou.wiki/wiki/Template:Right_topicons)
+
 ## 运行
 
 ```
