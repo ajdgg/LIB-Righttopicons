@@ -1,0 +1,42 @@
+{
+    "1": "责，理，机，管，监，界，巡，模，优，发，确",
+    "data": [
+        "responsibleoperator",
+        "steward",
+        "bot",
+        "sysop",
+        "templateeditor",
+        "interface-admin",
+        "patroller",
+        "suppress",
+        "autopatrolled",
+        "massmessage-sender",
+        "confirmed"
+    ],
+    "to": {
+        "责": "responsibleoperator",
+        "理": "steward",
+        "机": "bot",
+        "管": "sysop",
+        "监": "templateeditor",
+        "界": "interface-admin",
+        "巡": "patroller",
+        "模": "suppress",
+        "优": "autopatrolled",
+        "发": "massmessage-sender",
+        "确": "confirmed"
+    },
+    "form": {
+        "responsibleoperator": "责",
+        "steward": "理",
+        "bot": "机",
+        "sysop": "管",
+        "templateeditor": "监",
+        "interface-admin": "界",
+        "patroller": "巡",
+        "suppress": "模",
+        "autopatrolled": "优",
+        "massmessage-sender": "发",
+        "confirmed": "确"
+    }
+}

@@ -1,0 +1,7 @@
+/dist
+/__pycache__
+/cs
+bot.py
+cs.py
+/log
+.env.bot
